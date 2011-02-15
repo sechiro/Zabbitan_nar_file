@@ -1,0 +1,36 @@
+declare	RECIPE/1.0	COLORS
+select	素体	肌_CC
+mayuselect	2
+paint	素体	肌_CC		254	235	203
+select	結髪	ポニーテール_CCC
+select	アクセサリー２	ポニテ用リボン_CC
+paint	アクセサリー２	ポニテ用リボン_CC		255	255	255
+select	後髪	ショートナチュラル_CC
+select	耳	デフォルト_SKIN
+select	素体オプション	デフォルト
+select	瞳色	左右_CC
+paint	瞳色	左右_CC		51	0	0
+select	目の形	つり目
+select	瞳ハイライト	右上
+select	口	デフォルト
+select	靴下	ニーソックス_CC
+paint	靴下	ニーソックス_CC		71	69	68
+select	靴	厚底ストラップシューズ_CCC
+paint	靴	厚底ストラップシューズ_CCC		79	52	43
+select	スカート	変形ボックスプリーツミニ_CC
+paint	スカート	変形ボックスプリーツミニ_CC		126	65	65
+select	スカート装飾	変形ボックスプリーツミニ裾ライン_CC
+paint	スカート装飾	変形ボックスプリーツミニ裾ライン_CC		164	131	99
+select	トップス１	シンプルブラウス_CC
+paint	トップス１	シンプルブラウス_CC		251	250	219
+select	トップス１装飾	シャツ襟_CC
+paint	トップス１装飾	シャツ襟_CC		251	250	219
+select	トップス４	スーツジャケット前開き_CC
+paint	トップス４	スーツジャケット前開き_CC		243	148	92
+select	横髪	ナチュラル_CC
+select	前髪	真ん中分けあご下丈_CCC
+select	髪オプション	あほ毛１本_CC
+select	眉２	デフォルト
+select	アクセサリー５	襟元リボン_CC
+paint	アクセサリー５	襟元リボン_CC		67	100	125
+paint	結髪	ポニーテール_CCC		85	83	81
