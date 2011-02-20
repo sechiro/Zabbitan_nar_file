@@ -6,6 +6,25 @@
 　詳しくは、サイト「ざびたん基本設計書」を御覧ください。
 　　http://www43.atwiki.jp/zabbitan/
 　　
+■配布ファイル
+・zabbi_tan_simple.nar
+　ざびたんの単独パッケージです。
+　風太さん（ http://laughsketch.com/ ）が書いてくれたマスターシェル（立ち絵）を使用しています。
+
+・zabbi_tan.nar
+　ざびたんの単独パッケージに加えて、 @satos73 さんがつくってくれた「COLORS」（ http://sites.google.com/site/colorsprj/
+ ）を使って作成されたシェルが同梱されています。
+　また本体にも、マスターシェル、COLORSシェル両方で表情の整合性が取れるように修正が加わえています。
+　通常は、こちらをダウンロードすることをおすすめします。
+
+・zabbitan_colors.nar
+　@satos73 さんがつくってくれた「COLORS」シェルのみのパッケージです。
+　伺かゴーストにドラッグアンドドロップして使用します。
+
+・zabbitan_colors_recipe.txt
+　COLORSでざびたんシェルを作成した際のレシピです。
+　　
+　　
 ■配布条件
 ●スクリプト、シェル部分
 　自由にお使いください
