@@ -23,8 +23,19 @@
 
 ・zabbitan_colors_recipe.txt
 　COLORSでざびたんシェルを作成した際のレシピです。
-　　
-　　
+　
+(2011/06/19追加)
+・zabbi_tan2.nar
+　zabbi_tan.narに加えて、登録したホストへのSSHログイン機能（アルティマ・シュート）が追加されています。
+　ざびたんのあたり判定がないところをダブルクリックするとその機能を呼び出すことができます。（最初にホストを登録してください）
+　また、このバージョンを動かすためには「ざびたん基本設計書」にあるものに加えて、
+　Pythonモジュールの「simplejson」（もしくはPython2.6以上に標準で組み込まれている「json」）、
+　「paramiko」、「pycript」が必要になります。
+　paramikoは http://pypi.python.org/pypi/paramiko/
+　pycriptは http://www.voidspace.org.uk/python/modules.shtml#pycrypto （Windows用のコンパイル済みバイナリ）
+　を参考に導入してください。
+（追加ここまで）
+
 ■配布条件
 ●スクリプト、シェル部分
 　自由にお使いください
