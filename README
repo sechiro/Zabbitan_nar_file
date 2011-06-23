@@ -34,6 +34,17 @@
 　paramikoは http://pypi.python.org/pypi/paramiko/
 　pycriptは http://www.voidspace.org.uk/python/modules.shtml#pycrypto （Windows用のコンパイル済みバイナリ）
 　を参考に導入してください。
+
+(2011/06/23追加・引数仕様変更について)
+　また、ざびたん２ではアクション時の引数に「{ITEM.VALUE}」が追加になっています。
+　ざびたん２のパッケージを使う場合は、引数の最後にそれを追加してください。
+　
+　（例）
+　テスト用コマンド： zabbi-msg.py "untan01:Test Trigger:Not classified:0:テスト"
+　アクション設定： （ホスト名）:"（フルパス）\zabbi-msg.py" "{HOSTNAME}:{TRIGGER.NAME}:{TRIGGER.SEVERITY}:{TRIGGER.VALUE}:{ITEM.VALUE}"
+　※{TRIGGER.SEVERITY}は、Zabbixのロードマップ上ではいずれ廃止される予定となっているため、ざびたん２の引数仕様は今後変更になる可能性があります。
+　　最新の情報は、 @sechiro までTwitterで問い合せてください。
+　
 （追加ここまで）
 
 ■配布条件
